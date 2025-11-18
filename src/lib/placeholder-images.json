@@ -1,0 +1,504 @@
+{
+  "placeholderImages": [
+    {
+      "id": "canh_chua_ca_loc.jpg",
+      "imageUrl": "https://thuvienamthuc.vn/upload/images/2020/12/16/11.jpg",
+      "imageHint": "sour fish soup"
+    },
+    {
+      "id": "ga_xao_sa_ot.jpg",
+      "imageUrl": "https://cdn.tgdd.vn/Files/2021/03/15/1335523/cach-lam-ga-xao-sa-ot-cay-thom-nong-ngon-mieng-tai-nha-202201141101247647.jpeg",
+      "imageHint": "lemongrass chicken"
+    },
+    {
+      "id": "dau_phu_sot_ca_chua.jpg",
+      "imageUrl": "https://dienmaythiennamhoa.vn/static/images/Hinh-cam-nang/dau-phu-sot-ca-chua.jpg",
+      "imageHint": "tofu tomato sauce"
+    },
+    {
+      "id": "suon_xao_chua_ngot.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1624174782964-e541742299ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzd2VldCUyMHNvdXIlMjBwb3JrJTIwcmlic3xlbnwwfHx8fDE3NjI2MDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sweet sour pork ribs"
+    },
+    {
+      "id": "canh_bi_dao_thit_bam.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1629978444652-82a762b94041?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3aW50ZXIlMjBtZWxvbiUyMHNvdXB8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "winter melon soup"
+    },
+    {
+      "id": "com_chien_hai_san.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1630914441934-a29bf360934c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZWFmb29kJTIwZnJpZWQlMjByaWNlfGVufDB8fHx8MTc2MjYwMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "seafood fried rice"
+    },
+    {
+      "id": "bo_luc_lac.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1693749934760-193ce2f59af0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzaGFraW5nJTIwYmVlZnxlbnwwfHx8fDE3NjI1OTk5NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shaking beef"
+    },
+    {
+      "id": "canh_nam.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1543363364-98d2b51b47fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdXNocm9vbSUyMHNvdXB8ZW58MHx8fHwxNzYyNTk5OTQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mushroom soup"
+    },
+    {
+      "id": "tom_rim_thit.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1707322540591-51712eb524fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxicmFpc2VkJTIwc2hyaW1wJTIwcG9ya3xlbnwwfHx8fDE3NjI2MDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "braised shrimp pork"
+    },
+    {
+      "id": "cai_thao_xao_toi.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1667986968266-20d2506922f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzdGlyLWZyaWVkJTIwbmFwYSUyMGNhYmJhZ2V8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stir-fried napa cabbage"
+    },
+    {
+      "id": "chao_ga.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1704409040997-c1665f3ded4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpY2tlbiUyMGNvbmdlZXxlbnwwfHx8fDE3NjI1OTk5NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken congee"
+    },
+    {
+      "id": "goi_ga_bap_cai.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1667980971658-5a662de92655?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlja2VuJTIwY2FiYmFnZSUyMHNhbGFkfGVufDB8fHx8MTc2MjYwMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken cabbage salad"
+    },
+    {
+      "id": "ca_dieu_hong_sot_ca_chua.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1713374989663-e5b165462fef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmaXNoJTIwdG9tYXRvJTIwc2F1Y2V8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fish tomato sauce"
+    },
+    {
+      "id": "vit_om_sau.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1741315034133-321591ccadd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkdWNrJTIwZHJhY29udG9tZWxvbiUyMHNvdXB8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "duck dracontomelon soup"
+    },
+    {
+      "id": "ngheu_hap_sa.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1754222528371-0d175a4c4dad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c3RlYW1lZCUyMGNsYW1zJTIwbGVtb25ncmFzc3xlbnwwfHx8fDE3NjI2MDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "steamed clams lemongrass"
+    },
+    {
+      "id": "mi_y_sot_bo_bam.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1622973536968-3ead9e780960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzcGFnaGV0dGklMjBib2xvZ25lc2V8ZW58MHx8fHwxNzYyNDk0NTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spaghetti bolognese"
+    },
+    {
+      "id": "sinh_to_xoai.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1679310289578-680ff6ad5188?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtYW5nbyUyMHNtb290aGllfGVufDB8fHx8MTc2MjUzMDgzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango smoothie"
+    },
+    {
+      "id": "salad_bo_tom.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1585285072892-a52481577926?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdm9jYWRvJTIwc2hyaW1wJTIwc2FsYWR8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "avocado shrimp salad"
+    },
+    {
+      "id": "sua_chua_hoa_qua.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1757715375767-35ddb5ca9118?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx5b2d1cnQlMjBmcnVpdCUyMHNhbGFkfGVufDB8fHx8MTc2MjYwMTg0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yogurt fruit salad"
+    },
+    {
+      "id": "chao_yen_mach.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1686998423983-86e3ec8bd6eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvYXRtZWFsJTIwY29uZ2VlfGVufDB8fHx8MTc2MjU5OTk0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "oatmeal congee"
+    },
+    {
+      "id": "bun_dau_mam_tom.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1626242106661-fccdd6e56fc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0b2Z1JTIwc2hyaW1wJTIwcGFzdGV8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tofu shrimp paste"
+    },
+    {
+      "id": "bun_thang.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1470324161839-ce2bb6fa6bc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2ZXJtaWNlbGxpJTIwc291cHxlbnwwfHx8fDE3NjI2MDAyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vermicelli soup"
+    },
+    {
+      "id": "nem_lui.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1560762229-3d3450edacd9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGVtb25ncmFzcyUyMHBvcmslMjBza2V3ZXJzfGVufDB8fHx8MTc2MjYwMDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemongrass pork skewers"
+    },
+    {
+      "id": "ga_tan_thuoc_bac.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1652408414631-f09eae7cc1db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoZXJiYWwlMjBjaGlja2VuJTIwc291cHxlbnwwfHx8fDE3NjI2MDAyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "herbal chicken soup"
+    },
+    {
+      "id": "banh_xeo.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1676700310660-e92d03e259c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2aWV0bmFtZXNlJTIwcGFuY2FrZXxlbnwwfHx8fDE3NjI2MDAyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vietnamese pancake"
+    },
+    {
+      "id": "bun_rieu_cua.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1648003497161-d8317d2b7163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjcmFiJTIwbm9vZGxlJTIwc291cHxlbnwwfHx8fDE3NjI2MDE4NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crab noodle soup"
+    },
+    {
+      "id": "lau_ga_la_e.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1577226190174-187c146205a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGlja2VuJTIwaG90cG90JTIwZS1sZWFmfGVufDB8fHx8MTc2MjYwMTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken hotpot e-leaf"
+    },
+    {
+      "id": "ca_kho_to.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1595345352913-5f1263272d31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYXJhbWVsaXplZCUyMGZpc2h8ZW58MHx8fHwxNzYyNjAwMjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "caramelized fish"
+    },
+    {
+      "id": "goi_cuon.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1618406854423-ef169758d6a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzcHJpbmclMjByb2xsc3xlbnwwfHx8fDE3NjI1NjkxMjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spring rolls"
+    },
+    {
+      "id": "canh_mang_suon.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1685896076799-7c8a90b4e610?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiYW1ib28lMjBzaG9vdCUyMHNvdXB8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bamboo shoot soup"
+    },
+    {
+      "id": "che_khoai_mon.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1593190466793-abd98e45ea34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0YXJvJTIwc3dlZXQlMjBzb3VwfGVufDB8fHx8MTc2MjYwMDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "taro sweet soup"
+    },
+    {
+      "id": "xoi_xeo.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1545217431-172646ec8de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdGlja3klMjByaWNlfGVufDB8fHx8MTc2MjQ4MzYzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sticky rice"
+    },
+    {
+      "id": "bun_cha_ca_ro.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1585524096289-6e95dce6e21b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmlzaCUyMGNha2UlMjBub29kbGVzfGVufDB8fHx8MTc2MjYwMDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fish cake noodles"
+    },
+    {
+      "id": "nom_hoa_chuoi_tai_heo.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1576557050568-91e681840ab9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiYW5hbmElMjBibG9zc29tJTIwc2FsYWR8ZW58MHx8fHwxNzYyNjAwMjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "banana blossom salad"
+    },
+    {
+      "id": "lau_thai.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1712229754797-2d0cb1e9a04d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0aGFpJTIwaG90cG90fGVufDB8fHx8MTc2MjYwMDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thai hotpot"
+    },
+    {
+      "id": "mien_tron_ga.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1747228983976-13875480e315?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlja2VuJTIwZ2xhc3MlMjBub29kbGVzfGVufDB8fHx8MTc2MjYwMDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken glass noodles"
+    },
+    {
+      "id": "com_tam_suon_bi_cha.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1505216980056-a7b7b1c6e000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicm9rZW4lMjByaWNlfGVufDB8fHx8MTc2MjU3MjY2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "broken rice"
+    },
+    {
+      "id": "ga_rang_gung.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1690519315565-c31ce99f8d58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnaW5nZXIlMjBmcmllZCUyMGNoaWNrZW58ZW58MHx8fHwxNzYyNjAwMjk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ginger fried chicken"
+    },
+    {
+      "id": "cha_la_lot.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1724301693246-73162612d7bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bG9sb3QlMjBsZWFmJTIwYmVlZnxlbnwwfHx8fDE3NjI2MDAyOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lolot leaf beef"
+    },
+    {
+      "id": "luon_om_chuoi_dau.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1507835418932-dfcc1a16d393?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlZWwlMjBiYW5hbmElMjBzdGV3fGVufDB8fHx8MTc2MjYwMDI5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "eel banana stew"
+    },
+    {
+      "id": "mi_tom_xao_bo.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1666600981961-6d4eebf6e4f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bm9vZGxlJTIwc3Rpci1mcnklMjBiZWVmfGVufDB8fHx8MTc2MjYwMDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "noodle stir-fry beef"
+    },
+    {
+      "id": "com_rang_dua_bo.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1704793027864-ac1b45376b6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiZWVmJTIwZnJpZWQlMjByaWNlfGVufDB8fHx8MTc2MjYwMDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "beef fried rice"
+    },
+    {
+      "id": "xoi_gac.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1737315551939-d2564cd7c7a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZWQlMjBzdGlja3klMjByaWNlfGVufDB8fHx8MTc2MjYwMDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red sticky rice"
+    },
+    {
+      "id": "banh_mi_kep_thit.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1700937288157-e9dc231eec2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwb3JrJTIwc2FuZHdpY2h8ZW58MHx8fHwxNzYyNjAwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pork sandwich"
+    },
+    {
+      "id": "goi_cuon_tom_thit.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1759823338930-7996c1787c3b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzcHJpbmclMjByb2xscyUyMHNocmltcHxlbnwwfHx8fDE3NjI2MDE4NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "spring rolls shrimp"
+    },
+    {
+      "id": "banh_da_tron.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1686998423980-ab223d183055?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtaXhlZCUyMHJpY2UlMjBwYXBlcnxlbnwwfHx8fDE3NjI2MDA4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mixed rice paper"
+    },
+    {
+      "id": "ca_chep_om_dua.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYXJwJTIwcGlja2xlJTIwc291cHxlbnwwfHx8fDE3NjI2MDA4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "carp pickle soup"
+    },
+    {
+      "id": "bun_ngan.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1625940947631-908aa92ef5e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkdWNrJTIwbm9vZGxlJTIwc291cHxlbnwwfHx8fDE3NjI2MDA4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "duck noodle soup"
+    },
+    {
+      "id": "sup_cua.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1719494976819-71769779990f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjcmFiJTIwc291cHxlbnwwfHx8fDE3NjI1OTgzMTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crab soup"
+    },
+    {
+      "id": "banh_trang_tron.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1707339088654-117df66bd55c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaXhlZCUyMHJpY2UlMjBwYXBlciUyMHNhbGFkfGVufDB8fHx8MTc2MjYwMDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mixed rice paper salad"
+    },
+    {
+      "id": "sinh_to_dua_hau.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1683531658992-b78c311900a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXRlcm1lbG9uJTIwc21vb3RoaWV8ZW58MHx8fHwxNzYyNjAwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "watermelon smoothie"
+    },
+    {
+      "id": "nuoc_ep_cam.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1577680716097-9a565ddc2007?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvcmFuZ2UlMjBqdWljZXxlbnwwfHx8fDE3NjI1MzI0NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange juice"
+    },
+    {
+      "id": "tra_chanh.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZW1vbiUyMHRlYXxlbnwwfHx8fDE3NjI2MDA4OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemon tea"
+    },
+    {
+      "id": "rau_cau_dua.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1600035496984-9f18bb35c299?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb2NvbnV0JTIwamVsbHl8ZW58MHx8fHwxNzYyNjAwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coconut jelly"
+    },
+    {
+      "id": "che_buoi.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1618133879005-2943eb640e27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb21lbG8lMjBzd2VldCUyMHNvdXB8ZW58MHx8fHwxNzYyNjAwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pomelo sweet soup"
+    },
+    {
+      "id": "salad_trai_cay.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1658431618300-a69b07fb5782?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcnVpdCUyMHNhbGFkfGVufDB8fHx8MTc2MjU4MzUwNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fruit salad"
+    },
+    {
+      "id": "kem_bo.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1592864042311-a3babede6944?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdm9jYWRvJTIwaWNlJTIwY3JlYW18ZW58MHx8fHwxNzYyNjAwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "avocado ice cream"
+    },
+    {
+      "id": "sinh_to_bo_chuoi.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1619142297829-2efbf9221562?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhdm9jYWRvJTIwYmFuYW5hJTIwc21vb3RoaWV8ZW58MHx8fHwxNzYyNjAwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "avocado banana smoothie"
+    },
+    {
+      "id": "hoa_qua_dam.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1635709579812-b3256d639756?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtaXhlZCUyMGZydWl0JTIweW9ndXJ0fGVufDB8fHx8MTc2MjYwMDg5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mixed fruit yogurt"
+    },
+    {
+      "id": "che_vai_thieu.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1581339005403-f50259a3ac12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxseWNoZWUlMjBzd2VldCUyMHNvdXB8ZW58MHx8fHwxNzYyNjAwODk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lychee sweet soup"
+    },
+    {
+      "id": "bun_cha_hl.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1667388969250-1c7220bf3f37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXN0YXVyYW50JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzYyNTM2NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant interior"
+    },
+    {
+      "id": "pho_cuon_hb.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1651440204227-a9a5b9d19712?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxyZXN0YXVyYW50JTIwZm9vZHxlbnwwfHx8fDE3NjI1MjEyNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant food"
+    },
+    {
+      "id": "bun_rieu_hb.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1760727752184-584032a19d1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdHJlZXQlMjBmb29kJTIwc3RhbGx8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "street food stall"
+    },
+    {
+      "id": "lau_rieu_ngogach.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1658853577861-b1ea57b71ff5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxob3Rwb3QlMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MjYwMTg0MXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "hotpot restaurant"
+    },
+    {
+      "id": "bun_oc_bagiun.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1686103026713-310a968a96d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dmlldG5hbWVzZSUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "vietnamese restaurant"
+    },
+    {
+      "id": "cha_ca_la_vong.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1600523501660-2ffbb7a80207?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoaXN0b3JpYyUyMHJlc3RhdXJhbnR8ZW58MHx8fHwxNzYyNTk4MzE4fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "historic restaurant"
+    },
+    {
+      "id": "bun_dau_gocda.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1530062845289-9109b2c9c868?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwZGluaW5nfGVufDB8fHx8MTc2MjUzMjg2NXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "outdoor dining"
+    },
+    {
+      "id": "pho_bat_dan.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1761207299491-db8b7f7344b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwaG8lMjByZXN0YXVyYW50fGVufDB8fHx8MTc2MjU5OTA1OXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "pho restaurant"
+    },
+    {
+      "id": "pho_ga_nguyet.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1730725419501-72d230321478?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlja2VuJTIwcGhvJTIwcmVzdGF1cmFudHxlbnwwfHx8fDE3NjI2MDE4NDF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken pho restaurant"
+    },
+    {
+      "id": "kem_trang_tien.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxpY2UlMjBjcmVhbSUyMHNob3B8ZW58MHx8fHwxNzYyNjAxODQxfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "ice cream shop"
+    },
+    {
+      "id": "suon_nuong_ngu_vi.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/12/23/Bc5Thnhphm5-1671785824-1707-1671785850.jpg",
+      "imageHint": "grilled pork ribs"
+    },
+    {
+      "id": "su_hao_xao_muc.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2025/01/17/Thnhphm11-1737107672-9766-1737107682.jpg",
+      "imageHint": "stir-fried kohlrabi"
+    },
+    {
+      "id": "canh_mang_ngay_tet.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2025/01/15/buoc88-1736919199-7184-1736919212.jpg",
+      "imageHint": "bamboo shoot soup"
+    },
+    {
+      "id": "gia_hanh_nhan.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2025/01/05/Thanhpham11-1736064215-5420-1736064222.jpg",
+      "imageHint": "chicken gizzard stir-fry"
+    },
+    {
+      "id": "cha_bi_ot_xiem.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2024/12/31/Buoc5Thanhpham11-1735634963-8056-1735635011.jpg",
+      "imageHint": "pork skin sausage"
+    },
+    {
+      "id": "ca_thu_sot_ca_chua.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2023/01/02/Thnhphm11-1672638713-3458-1672638737.jpg",
+      "imageHint": "mackerel tomato sauce"
+    },
+    {
+      "id": "ca_dieu_hong_hap_gung_hanh.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/12/29/Bc4Thnhphm4-1672298218-7464-1672298342.jpg",
+      "imageHint": "steamed fish ginger"
+    },
+    {
+      "id": "lau_thai_chua_cay.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/12/17/Thnhphm11-1671269522-6863-1671269525.jpg",
+      "imageHint": "spicy thai hotpot"
+    },
+    {
+      "id": "ca_ri_ga.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/12/15/Thnhphm11-1671086819-5787-1671086922.jpg",
+      "imageHint": "chicken curry"
+    },
+    {
+      "id": "muc_chien_nuoc_mam.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/12/11/Thnhphm11-1670752681-8889-1670752738.jpg",
+      "imageHint": "fried squid"
+    },
+    {
+      "id": "ca_kho_su_hao.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/02/25/Thnhphm1-1645780253-1845-1645780347.jpg",
+      "imageHint": "braised fish kohlrabi"
+    },
+    {
+      "id": "nem_chim_bo_cau.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/02/24/Thnhphm3-1645694519-4527-1645694556.jpg",
+      "imageHint": "pigeon spring rolls"
+    },
+    {
+      "id": "nem_lui_nha_hang.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/02/18/Bc6-1645174454-6720-1645174529.jpg",
+      "imageHint": "lemongrass pork skewers"
+    },
+    {
+      "id": "bun_gia_cay.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/02/18/Thnhphm3-1645173060-7712-1645173239.jpg",
+      "imageHint": "pork leg vermicelli"
+    },
+    {
+      "id": "ga_rang_gung_dong.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2022/01/09/Thnhphm1-1641712797-8760-1641712808.jpg",
+      "imageHint": "ginger fried chicken"
+    },
+    {
+      "id": "canh_ca_nau_su_hao.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/27/Thnhphm1-1640610067-9516-1640610180.jpg",
+      "imageHint": "fish kohlrabi soup"
+    },
+    {
+      "id": "che_xoai_dong.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/24/Bc4-1640337276-6184-1640337382.jpg",
+      "imageHint": "mango sweet soup"
+    },
+    {
+      "id": "dau_hu_tay_cam.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/06/dau3-1638776001-7155-1638776061.jpg",
+      "imageHint": "seafood tofu hotpot"
+    },
+    {
+      "id": "trung_ca_chien_la_lot.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/10/Thnhphm4a-1639113523-4681-1639113593.jpg",
+      "imageHint": "fish roe omelette"
+    },
+    {
+      "id": "ca_kho_dua_cai.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/10/Thnhphm4a-1639113523-4681-1639113593.jpg",
+      "imageHint": "braised fish pickles"
+    },
+    {
+      "id": "chan_ga_sot_thai.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/10/Thnhphm21-1639112983-6014-1639113016.jpg",
+      "imageHint": "thai style chicken feet"
+    },
+    {
+      "id": "bap_cai_cuon_thit.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/10/Thnhphm1-1639109882-4858-1639110016.jpg",
+      "imageHint": "cabbage rolls pork"
+    },
+    {
+      "id": "bo_sot_vang_hanoi.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/10/Thnhphm1-1639110599-7447-1639110897.jpg",
+      "imageHint": "hanoi beef stew"
+    },
+    {
+      "id": "chao_trai.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/11/30/Thnhphm4-1638255664-7292-1638255863.jpg",
+      "imageHint": "clam congee"
+    },
+    {
+      "id": "bap_bo_ngam_mam.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/05/5-1638711706-5290-1638711713.jpg",
+      "imageHint": "pickled beef shank"
+    },
+    {
+      "id": "mang_xao_top_mo.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/11/30/Thnhphm3-1638256332-9237-1638256468.jpg",
+      "imageHint": "fried bamboo shoots"
+    },
+    {
+      "id": "bun_thit_nuong_nckd.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/12/01/5-1638331586-1638331600-6187-1638331719.jpg",
+      "imageHint": "grilled pork vermicelli"
+    },
+    {
+      "id": "ca_kho_chuoi.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/11/26/Thnhphm1-1637901065-3576-1637901078.jpg",
+      "imageHint": "braised fish banana"
+    },
+    {
+      "id": "banh_mi_hotdog.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/11/26/Thnhphm1-1637916893-8417-1637916919.jpg",
+      "imageHint": "hot dog bun"
+    },
+    {
+      "id": "xoi_thit_haiphong.jpg",
+      "imageUrl": "https://i-giadinh.vnecdn.net/2021/11/19/Thnhphm3-1637330748-4609-1637333521.jpg",
+      "imageHint": "haiphong sticky rice"
+    }
+  ]
+}
